@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0f8dd0;
-    --primary-hover: #47b0e8;
+    --primary: #f77f00;
+    --primary-hover: #c06300;
     --secondary: #FFC448;
     --light: #FAFAFB;
     --dark: #12141D;
@@ -168,7 +168,7 @@
 
 .typed-cursor {
     font-size: 30px;
-    color: var(--dark);
+    color: var(--primary);
 }
 
 .btn-play {
@@ -495,6 +495,9 @@
     background-color: orange;
 }
 
+.text-orange{
+    color: var(--primary);
+}
 
 .hvr-bounce-to-right {
     display: grid;
@@ -509,7 +512,7 @@
     height: 50px;
     place-content: center;
     width: fit-content;
-    background: #3098cf;
+    background: var(--primary);
     padding: 0 20px;
     border-radius: 8px;
     color: #fff;
