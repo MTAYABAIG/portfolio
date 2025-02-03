@@ -154,7 +154,7 @@ buttons.forEach((element) => {
 // download cv
 document.getElementById("resume").addEventListener("click", function() {
     // URL of the PDF file
-    let pdfURL = "./img/resume.pdf";
+    let pdfURL = "./img/cv.pdf";
 
     // Fetch the PDF file
     fetch(pdfURL)
@@ -162,7 +162,7 @@ document.getElementById("resume").addEventListener("click", function() {
         .then(blob => {
             let link = document.createElement("a");
 
-            link.download = "resume.pdf";
+            link.download = "cv.pdf";
 
             link.href = URL.createObjectURL(blob);
 
